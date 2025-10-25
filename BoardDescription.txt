@@ -1,0 +1,9 @@
+Our board will help us create a fun visual effect with a tube, fan, and ping pong ball in the tube. 
+The PCB will contain connections for 2 HC-SR40 Ultrasonic distance sensors and a motor that can be interfaced with PWM (circuit similar to Lab 2/3/4).
+The user will use their hand (or a magic wand we give them) to point at a spot on the tube, read by one of the distance sensors.
+Using a second distance sensor to read the ping pong ball's position, we will move the ping pong ball in the tube to match the other sensor's position with a PI loop.
+This will give the appearance that the ball 'magically' follows the user's wand/hand.
+There will also be additional modes for the user to switch between with an onboard pushbutton such as an off state, hover, and oscillate (hopefully!).
+
+NOTE: the board will be powered by a USB-C 5V connection using this breakout board:
+https://www.adafruit.com/product/4090
